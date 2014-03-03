@@ -1,0 +1,50 @@
+# C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in/
+[Oo]bj/
+
+# mstest test results
+TestResults
+
+# Objective-C
+build/*
+build/
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+.DS_Store
+*/build/*
+*.pbxuser
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+DerivedData
+.idea/
+*.hmap
+.*
+
+# JAVA
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
