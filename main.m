@@ -1,9 +1,16 @@
-#import <UIKit/UIKit.h>
+//
+//  main.m
+//  TableSearch
+//
+//  Created by CocoaBob on 07/13/09.
+//  Copyright 2009 CocoaBob. All rights reserved.
+//
 
-int main(int argc, char *argv[])
+#import "CBAppDelegate.h"
+
+int main(int argc, char * argv[])
 {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    [pool release];
-    return retVal;
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CBAppDelegate class]));
+    }
 }

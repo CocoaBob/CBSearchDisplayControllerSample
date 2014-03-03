@@ -10,12 +10,13 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		531F16A90D6367A3003D33FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16990D6367A3003D33FB /* AppDelegate.m */; };
-		5391030D0F8BDD5C00ED14FA /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391030C0F8BDD5C00ED14FA /* Product.m */; };
+		451DD65F18C48B2B003CA17F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451DD65E18C48B2B003CA17F /* Default-568h@2x.png */; };
+		531F16A90D6367A3003D33FB /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16990D6367A3003D33FB /* CBAppDelegate.m */; };
+		5391030D0F8BDD5C00ED14FA /* CBProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391030C0F8BDD5C00ED14FA /* CBProduct.m */; };
 		539168B00DCFA64400D8C6CB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539168AE0DCFA64400D8C6CB /* MainWindow.xib */; };
 		53A66D3F0E0842EF009C8489 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A66D3E0E0842EF009C8489 /* CoreGraphics.framework */; };
-		C4F7BCF3100B60D40074B196 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7BCF2100B60D40074B196 /* FirstViewController.m */; };
-		C4F7BD0F100B66360074B196 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7BD0D100B66360074B196 /* SecondViewController.m */; };
+		C4F7BCF3100B60D40074B196 /* CBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7BCF2100B60D40074B196 /* CBFirstViewController.m */; };
+		C4F7BD0F100B66360074B196 /* CBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7BD0D100B66360074B196 /* CBSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,18 +24,19 @@
 		1D6058910D05DD3D006BFB54 /* TableSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		451DD65E18C48B2B003CA17F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		531F16910D63677B003D33FB /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		531F16990D6367A3003D33FB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		531F16A40D6367A3003D33FB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5391030B0F8BDD5C00ED14FA /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
-		5391030C0F8BDD5C00ED14FA /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		531F16990D6367A3003D33FB /* CBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		531F16A40D6367A3003D33FB /* CBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		5391030B0F8BDD5C00ED14FA /* CBProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBProduct.h; sourceTree = "<group>"; };
+		5391030C0F8BDD5C00ED14FA /* CBProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBProduct.m; sourceTree = "<group>"; };
 		539168AF0DCFA64400D8C6CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		53A66D3E0E0842EF009C8489 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4F7BCF1100B60D40074B196 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C4F7BCF2100B60D40074B196 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C4F7BD0D100B66360074B196 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		C4F7BD0E100B66360074B196 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C4F7BCF1100B60D40074B196 /* CBFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBFirstViewController.h; sourceTree = "<group>"; };
+		C4F7BCF2100B60D40074B196 /* CBFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBFirstViewController.m; sourceTree = "<group>"; };
+		C4F7BD0D100B66360074B196 /* CBSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSecondViewController.m; sourceTree = "<group>"; };
+		C4F7BD0E100B66360074B196 /* CBSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSecondViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +74,9 @@
 		29B97314FDCFA39411CA2CEA /* Toolbar */ = {
 			isa = PBXGroup;
 			children = (
+				451DD65E18C48B2B003CA17F /* Default-568h@2x.png */,
 				29B97315FDCFA39411CA2CEA /* Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97317FDCFA39411CA2CEA /* Supporting Files */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -83,27 +86,27 @@
 		29B97315FDCFA39411CA2CEA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				531F16910D63677B003D33FB /* Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-				531F16A40D6367A3003D33FB /* AppDelegate.h */,
-				531F16990D6367A3003D33FB /* AppDelegate.m */,
-				5391030B0F8BDD5C00ED14FA /* Product.h */,
-				5391030C0F8BDD5C00ED14FA /* Product.m */,
-				C4F7BCF1100B60D40074B196 /* FirstViewController.h */,
-				C4F7BCF2100B60D40074B196 /* FirstViewController.m */,
-				C4F7BD0E100B66360074B196 /* SecondViewController.h */,
-				C4F7BD0D100B66360074B196 /* SecondViewController.m */,
+				531F16A40D6367A3003D33FB /* CBAppDelegate.h */,
+				531F16990D6367A3003D33FB /* CBAppDelegate.m */,
+				5391030B0F8BDD5C00ED14FA /* CBProduct.h */,
+				5391030C0F8BDD5C00ED14FA /* CBProduct.m */,
+				C4F7BCF1100B60D40074B196 /* CBFirstViewController.h */,
+				C4F7BCF2100B60D40074B196 /* CBFirstViewController.m */,
+				C4F7BD0E100B66360074B196 /* CBSecondViewController.h */,
+				C4F7BD0D100B66360074B196 /* CBSecondViewController.m */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
 		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
+		29B97317FDCFA39411CA2CEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				539168AE0DCFA64400D8C6CB /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				539168AE0DCFA64400D8C6CB /* MainWindow.xib */,
+				531F16910D63677B003D33FB /* Prefix.pch */,
 			);
-			name = Resources;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -117,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* TableSearch */ = {
+		1D6058900D05DD3D006BFB54 /* CBSearchDisplayControllerSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TableSearch" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CBSearchDisplayControllerSample" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -129,7 +132,7 @@
 			);
 			dependencies = (
 			);
-			name = TableSearch;
+			name = CBSearchDisplayControllerSample;
 			productName = foo;
 			productReference = 1D6058910D05DD3D006BFB54 /* TableSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -139,8 +142,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TableSearch" */;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CBSearchDisplayControllerSample" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -153,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* TableSearch */,
+				1D6058900D05DD3D006BFB54 /* CBSearchDisplayControllerSample */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				539168B00DCFA64400D8C6CB /* MainWindow.xib in Resources */,
+				451DD65F18C48B2B003CA17F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,10 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				531F16A90D6367A3003D33FB /* AppDelegate.m in Sources */,
-				5391030D0F8BDD5C00ED14FA /* Product.m in Sources */,
-				C4F7BCF3100B60D40074B196 /* FirstViewController.m in Sources */,
-				C4F7BD0F100B66360074B196 /* SecondViewController.m in Sources */,
+				531F16A90D6367A3003D33FB /* CBAppDelegate.m in Sources */,
+				5391030D0F8BDD5C00ED14FA /* CBProduct.m in Sources */,
+				C4F7BCF3100B60D40074B196 /* CBFirstViewController.m in Sources */,
+				C4F7BD0F100B66360074B196 /* CBSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +218,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
 				PREBINDING = NO;
-				PRODUCT_NAME = TableSearch;
-				SDKROOT = iphoneos3.0;
+				PRODUCT_NAME = CBSearchDisplayControllerSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -230,8 +236,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
 				PREBINDING = NO;
-				PRODUCT_NAME = TableSearch;
-				SDKROOT = iphoneos3.0;
+				PRODUCT_NAME = CBSearchDisplayControllerSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -240,12 +245,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -253,18 +257,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.0;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TableSearch" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CBSearchDisplayControllerSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -273,7 +276,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TableSearch" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CBSearchDisplayControllerSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
