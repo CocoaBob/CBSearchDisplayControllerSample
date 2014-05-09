@@ -22,18 +22,14 @@
     return self;
 }
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 - (void)viewDidLoad {
-	UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks
-																					target:self
-																					action:@selector(go:)];
-	self.navigationItem.rightBarButtonItem = rightBarButton;
-    [rightBarButton release];
+    [super viewDidLoad];
     
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks
+                                                                                           target:self
+                                                                                           action:@selector(go:)];
+    
     // iOS 7 compatibility
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
         self.edgesForExtendedLayout = UIRectEdgeNone;
@@ -41,33 +37,45 @@
         self.extendedLayoutIncludesOpaqueBars = NO;
     if ([self respondsToSelector:@selector(automaticallyAdjustsScrollViewInsets)])
         self.automaticallyAdjustsScrollViewInsets = NO;
-#endif
 }
 
 - (IBAction)go:(id)sender{
 	// Create the master list for the main view controller.
-	NSArray *listContent = [[NSArray alloc] initWithObjects:
-							[CBProduct productWithType:@"Device" name:@"iPhone"],
-							[CBProduct productWithType:@"Device" name:@"iPod"],
-							[CBProduct productWithType:@"Device" name:@"iPod touch"],
-							[CBProduct productWithType:@"Desktop" name:@"iMac"],
-							[CBProduct productWithType:@"Desktop" name:@"Mac Pro"],
-							[CBProduct productWithType:@"Portable" name:@"iBook"],
-							[CBProduct productWithType:@"Portable" name:@"MacBook"],
-							[CBProduct productWithType:@"Portable" name:@"MacBook Pro"],
-							[CBProduct productWithType:@"Portable" name:@"PowerBook"], nil];
+	NSArray *listContent = @[
+                             [CBProduct productWithType:@"iPad" name:@"iPad"],
+                             [CBProduct productWithType:@"iPad" name:@"iPad 2"],
+                             [CBProduct productWithType:@"iPad" name:@"The new iPad"],
+                             [CBProduct productWithType:@"iPad" name:@"iPad 4"],
+                             [CBProduct productWithType:@"iPad" name:@"iPad Air"],
+                             [CBProduct productWithType:@"iPad" name:@"iPad mini"],
+                             [CBProduct productWithType:@"iPad" name:@"iPad mini with Retina display"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone 3G"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone 3GS"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone 4"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone 4s"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone 5"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone 5c"],
+                             [CBProduct productWithType:@"iPhone" name:@"iPhone 5s"],
+                             [CBProduct productWithType:@"iPod" name:@"iPod classic"],
+                             [CBProduct productWithType:@"iPod" name:@"iPod nano"],
+                             [CBProduct productWithType:@"iPod" name:@"iPod shuffle"],
+                             [CBProduct productWithType:@"iPod" name:@"iPod touch"],
+                             [CBProduct productWithType:@"Mac" name:@"iMac"],
+                             [CBProduct productWithType:@"Mac" name:@"Mac mini"],
+                             [CBProduct productWithType:@"Mac" name:@"Mac Pro"],
+                             [CBProduct productWithType:@"Mac" name:@"Macbook"],
+                             [CBProduct productWithType:@"Mac" name:@"Macbook Air"],
+                             [CBProduct productWithType:@"Mac" name:@"Macbook Pro"],
+                             [CBProduct productWithType:@"Mac" name:@"MacBook Pro with Retina display"],
+                            ];
 	
 	
 	// Create and configure the main view controller.
 	CBSecondViewController *secondViewController = [[CBSecondViewController alloc] init];
 	secondViewController.listContent = listContent;
-	[listContent release];
 
 	[self.navigationController pushViewController:secondViewController animated:YES];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
 }
 
 @end

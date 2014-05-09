@@ -8,8 +8,8 @@
 
 @interface CBSecondViewController : UITableViewController <UISearchDisplayDelegate, UISearchBarDelegate>
 
-@property (nonatomic, retain) NSArray *listContent; // The master content.
-@property (nonatomic, retain) NSMutableArray *filteredListContent; // The content filtered as a result of a search.
-@property (nonatomic, retain) UISearchDisplayController	*retainedSearchDisplayController;
+@property (nonatomic, strong) NSArray *listContent; // The master content.
+@property (nonatomic, strong) NSMutableArray *filteredListContent; // The content filtered as a result of a search.
+@property (nonatomic, strong) UISearchDisplayController	*retainedSearchDisplayController;
 
 @end

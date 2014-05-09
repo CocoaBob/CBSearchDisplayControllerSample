@@ -11,16 +11,10 @@
 @implementation CBProduct
 
 + (id)productWithType:(NSString *)type name:(NSString *)name {
-	CBProduct *newProduct = [[[self alloc] init] autorelease];
+	CBProduct *newProduct = [[self alloc] init];
 	newProduct.type = type;
 	newProduct.name = name;
 	return newProduct;
-}
-
-- (void)dealloc {
-	[self.type release];
-	[self.name release];
-	[super dealloc];
 }
 
 @end

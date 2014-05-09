@@ -13,18 +13,15 @@
 @implementation CBAppDelegate;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	self.tabBarController = [[[UITabBarController alloc] initWithNibName:nil bundle:nil] autorelease];
+	self.tabBarController = [[UITabBarController alloc] initWithNibName:nil bundle:nil];
 	
 	CBFirstViewController *firstViewController = [[CBFirstViewController alloc] initWithNibName:nil bundle:nil];
 	UINavigationController *firstNavigationController = [[UINavigationController alloc] initWithRootViewController:firstViewController];
-	[firstViewController release];
 	
 	CBSecondViewController *secondViewController = [[CBSecondViewController alloc] initWithNibName:nil bundle:nil];
 	UINavigationController *secondNavigationController = [[UINavigationController alloc] initWithRootViewController:secondViewController];
-	[secondViewController release];
 	
 	self.tabBarController.viewControllers = @[firstNavigationController,secondNavigationController];
-//    self.tabBarController.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.window setRootViewController:self.tabBarController];
 
 	[self.window makeKeyAndVisible];
